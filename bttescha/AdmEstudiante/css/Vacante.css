@@ -1,0 +1,22 @@
+main {
+    max-width: 950px;
+}
+
+.postulacion-container {
+    position: sticky !important;
+    bottom: 1em !important;
+}
+
+@media (min-width: 576px) {
+    .postulacion-container div {
+        position: sticky !important;
+        top: 9em;
+    }
+}
+
+@media (min-width: 992px) {
+    .postulacion-container div {
+        position: sticky !important;
+        top: 6em;
+    }
+}

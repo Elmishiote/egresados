@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Registro convenio | SEYBT</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    
+</head>
+<body id="body">
+    <header>
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>   
+        </div>
+    </header>
+
+    <div class="menu__side" id="menu_side">
+        <div class="name__page">
+            <i class="fab fa-youtube"></i>
+            <h6>SEYBT</h6>
+        </div>
+
+        <div class="options__menu">	
+            <a href="#" class="selected"><div class="option"><i class="fas fa-home" title="Inicio"></i><h6>Inicio</h6></div></a>
+            <a href="#"><div class="option"><i class="fa-solid fa-list" title="RegistrarEmpresa"></i><h6>Registrar Empresa</h6></div></a>
+            <a href="#"><div class="option"><i class="fas fa-city" title="Convenios"></i><h6>Convenios</h6></div></a>
+        </div>
+    </div>
+
+        <div class="container py-4">
+            <h3>CONVENIO CON EMPRESAS</h3>
+            <div class="row text-center col-sm-10 col-md-12 col-lg-12 py-4">
+                <ul class="nav nav-tabs">
+                   <li class="nav-item">
+                      <!-- <a class="nav-link active" href="principal.php">Validación de sesión</a> -->
+                   </li>
+
+                   <li class="nav-item">
+                        <a href="#">
+                            Registrar convenio
+                        </a>
+                   </li>
+                 </ul>
+              </div>
+
+
+        <div>
+            <h2>Registrar convenio</h2>
+
+            <form id="registrarConvenio" data-edit-mode="false">
+                <label for="numConvenio">Número de convenio</label>
+                <input type="number" name="numConvenio" id="numConvenio">
+
+                <label for="empresa">Selecciona la empresa</label>
+                <select name="empresa" id="empresa">
+                    <option value="">Seleccionar</option>
+                </select>
+
+                <input type="submit" id="btnSubmit" value="Registrar">
+            </form>
+        </div>
+
+        <div>
+            <h2>Lista de convenios</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Número de convenio</th>
+                        <th>Empresa</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="./js/jquery.js"></script>
+        <script src="./js/AdmConvenio_.js"></script>
+        <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</body>
+</html>

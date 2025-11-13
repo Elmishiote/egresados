@@ -1,0 +1,9 @@
+main {
+    max-width: 650px;
+}
+
+@media (min-width: 768px) {
+    .col-12.col-md.my-auto label {
+        margin-bottom: 0 !important;
+    }
+}
